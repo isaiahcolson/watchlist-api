@@ -7,11 +7,18 @@ const userSchema = new Schema(
         lastName: {type: String, required: true},
         username: {type: String, required: true, unique: true},
         email: {type: String, required: true, unique: true},
-        password: {type: String, required: true}
+        password: {type: String, required: true, selected: false}
     }, {
         timestamps: true
     }
 );
+
+userSchema.set('toJSON', {
+    transform: (doc, ret, opt) => {
+        delete ret["password"];
+        return ret;
+    }
+});
 
 const User = mongoose.model('User', userSchema);
 
