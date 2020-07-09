@@ -13,5 +13,6 @@ mongoose.connect(connectionString, {
 });
 
 module.exports = {
-    Title: require('./Title'),
+	Title: require('./Title'),
+	User: require('./User'),
 }
