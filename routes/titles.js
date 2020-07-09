@@ -5,7 +5,7 @@ const controller = require('../controllers');
 const authRequired = require('../middleware/authRequired');
 
 // routes
-router.get('/', authRequired, controller.titles.index);
+router.get('/', controller.titles.index);
 router.get('/:id', authRequired, controller.titles.show);
 
 // exports

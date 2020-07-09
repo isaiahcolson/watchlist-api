@@ -47,7 +47,7 @@ const login = async (req,res) => {
                     expiresIn: '1h'
                 }
             );
-            res.status(200),json({
+            res.status(200).json({
                 status:200,
                 message: "Success",
                 token: signedJwt
@@ -59,6 +59,7 @@ const login = async (req,res) => {
             });
         }
     } catch (error) {
+        console.log(error);
         return res.status(500).json({
             status: 500,
             message: "Something went wrong, please try again."
