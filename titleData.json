@@ -1,5 +1,36 @@
 {
     "titles": [
-        
+        {
+            "name": "Joker",
+            "releaseYear": "2019",
+            "mediaType": "movie",
+            "rating": 8.5,
+            "coverImage": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "genres": ["crime", "drama", "thriller"]
+        },
+        {
+            "name": "Knives Out",
+            "releaseYear": "2019",
+            "mediaType": "movie",
+            "rating": 7.9,
+            "coverImage": "https://m.media-amazon.com/images/M/MV5BMGUwZjliMTAtNzAxZi00MWNiLWE2NzgtZGUxMGQxZjhhNDRiXkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "genres": ["comedy", "crime", "drama"]
+        },
+        {
+            "name": "Watchmen",
+            "releaseYear": "2019",
+            "mediaType": "show",
+            "rating": 8.1,
+            "coverImage": "https://m.media-amazon.com/images/M/MV5BYjhhZDE3NjgtMjkzNC00NzI3LWJhOTItMWQ5ZjljODA5NWNkXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "genres": ["action", "drama", "mystery"]
+        },
+        {
+            "name": "Legion",
+            "releaseYear": "2017",
+            "mediaType": "show",
+            "rating": 8.3,
+            "coverImage": "https://m.media-amazon.com/images/M/MV5BNmYxMjM5MzMtNTczZC00MGM3LTk2MTQtZmNmMTg4ZDI4ZTkxXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "genres": ["action", "drama", "sci-fi"]
+        }
     ]
 }
