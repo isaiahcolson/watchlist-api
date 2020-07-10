@@ -7,7 +7,11 @@ const userSchema = new Schema(
         lastName: {type: String, required: true},
         username: {type: String, required: true, unique: true},
         email: {type: String, required: true, unique: true},
-        password: {type: String, required: true, selected: false}
+        password: {type: String, required: true, selected: false},
+        watchlists: [{
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "Watchlist"
+        }]
     }, {
         timestamps: true
     }

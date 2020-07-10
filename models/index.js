@@ -15,4 +15,5 @@ mongoose.connect(connectionString, {
 module.exports = {
 	Title: require('./Title'),
 	User: require('./User'),
+	Watchlist: require('./Watchlist'),
 }

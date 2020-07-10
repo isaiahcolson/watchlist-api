@@ -6,7 +6,7 @@ const authRequired = require('../middleware/authRequired');
 
 // routes
 router.get('/', controller.titles.index);
-router.get('/:id', authRequired, controller.titles.show);
+router.get('/:id', controller.titles.show);
 
 // exports
 module.exports = router;
