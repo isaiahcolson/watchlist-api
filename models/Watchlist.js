@@ -3,10 +3,10 @@ const Schema = mongoose.Schema;
 
 const WatchlistSchema = new Schema ({
     name: {type: String, required: true},
-    user: {
+    titles: [{
         type: mongoose.Schema.Types.ObjectId,
-        ref: "User"
-    }
+        ref: "Title"
+    }]
 });
 
 const Watchlist = mongoose.model('Watchlist', WatchlistSchema);

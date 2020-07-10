@@ -7,7 +7,11 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // middleware
-app.use(cors());
+const options = {
+    origin: ["http://localhost:3000"]
+}
+
+app.use(cors(options));
 app.use(express.json());
 
 app.use('/titles', routes.titles);
