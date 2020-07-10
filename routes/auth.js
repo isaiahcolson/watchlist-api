@@ -2,6 +2,7 @@
 const router = require('express').Router();
 const controller = require('../controllers');
 
+// add authRequired to all routes that need hidden
 const authRequired = require('../middleware/authRequired');
 
 // routes

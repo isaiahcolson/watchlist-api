@@ -1,6 +1,8 @@
+// imports
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+// title model, these are movies or shows
 const titleSchema = new Schema({
     name: String,
     releaseYear: Number,

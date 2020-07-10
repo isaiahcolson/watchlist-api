@@ -1,6 +1,8 @@
+// imports
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+// user model
 const userSchema = new Schema(
     {
         firstName: {type: String, required: true},
@@ -17,6 +19,7 @@ const userSchema = new Schema(
     }
 );
 
+// this will remove password if returned pass is json
 userSchema.set('toJSON', {
     transform: (doc, ret, opt) => {
         delete ret["password"];

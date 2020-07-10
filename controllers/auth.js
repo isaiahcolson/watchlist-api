@@ -2,6 +2,7 @@ const db = require('../models');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
+// register function for new users
 const register = async (req,res) => {
     try {
         const foundUser = await db.User.findOne({username: req.body.username});
@@ -27,6 +28,7 @@ const register = async (req,res) => {
     }
 }
 
+// login function for returning users
 const login = async (req,res) => {
     try {
         const foundUser = await db.User.findOne({username: req.body.username}).select("+password");
@@ -67,6 +69,7 @@ const login = async (req,res) => {
     }
 }
 
+// profile function for users account info
 const profile = async (req,res) => {
     try {
         const foundUser = await db.User.findById(req.currentUser);
@@ -80,6 +83,7 @@ const profile = async (req,res) => {
     }
 }
 
+// exports
 module.exports = {
     register,
     login,
