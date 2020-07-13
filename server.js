@@ -18,6 +18,7 @@ app.use(express.json());
 // routes
 app.use('/titles', routes.titles);
 app.use('/auth', routes.auth);
+app.use('/watchlists', routes.watchlists);
 
 // connection
 app.listen(PORT, () => {
