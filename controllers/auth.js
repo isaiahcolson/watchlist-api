@@ -12,11 +12,12 @@ const register = async (req,res) => {
                 status: 400,
                 message: "Username has already been taken, please try again."
             });
+        const watchlist = await db.Watchlist.create(req.body);
 
         const salt = await bcrypt.genSalt(10);
         const hash = await bcrypt.hash(req.body.password, salt);
-        const createdUser = await db.User.create({...req.body, password:hash});
-
+        const createdUser = await db.User.create({...req.body, password:hash, watchlists: [watchlist._id]});
+        
         return res
             .status(201)
             .json({status: 201, message: "Success", createdUser});

@@ -2,4 +2,5 @@
 module.exports = {
     titles: require('./titles'),
     auth: require('./auth'),
+    watchlist: require('./watchlist'),
 }
