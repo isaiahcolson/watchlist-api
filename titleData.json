@@ -2,35 +2,51 @@
     "titles": [
         {
             "name": "Joker",
-            "releaseYear": "2019",
-            "mediaType": "movie",
             "rating": 8.5,
-            "coverImage": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
-            "genres": ["crime", "drama", "thriller"]
+            "releaseYear": 2019,
+            "mpaaRating": "R",
+            "timeLength": "2h 2min",
+            "mediaType": "movie",
+            "posterImage": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "coverImage": "https://www.gannett-cdn.com/presto/2020/01/08/USAT/92cee8fa-4314-425b-8351-570c7f09080e-14_oaquin_Phoenix_Joker.JPG?crop=5999,3375,x0,y305&width=3200&height=1680&fit=bounds",
+            "genres": ["Crime", "Drame", "Thriller"],
+            "storyline": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker."
         },
         {
             "name": "Knives Out",
-            "releaseYear": "2019",
-            "mediaType": "movie",
             "rating": 7.9,
-            "coverImage": "https://m.media-amazon.com/images/M/MV5BMGUwZjliMTAtNzAxZi00MWNiLWE2NzgtZGUxMGQxZjhhNDRiXkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_UX182_CR0,0,182,268_AL_.jpg",
-            "genres": ["comedy", "crime", "drama"]
+            "releaseYear": 2019,
+            "mpaaRating": "PG-13",
+            "timeLength": "2h 10min",
+            "mediaType": "movie",
+            "posterImage": "https://m.media-amazon.com/images/M/MV5BMGUwZjliMTAtNzAxZi00MWNiLWE2NzgtZGUxMGQxZjhhNDRiXkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "coverImage": "https://media.npr.org/assets/img/2019/11/25/ko-d10-04517-r_slide-24569122abd76024bfb9b2688da69b06468c4d62.jpg",
+            "genres": ["Comedy", "Crime", "Drama"],
+            "storyline": "When renowned crime novelist Harlan Thrombey (Christopher Plummer) is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc (Daniel Craig) is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death."
         },
         {
             "name": "Watchmen",
-            "releaseYear": "2019",
-            "mediaType": "show",
             "rating": 8.1,
-            "coverImage": "https://m.media-amazon.com/images/M/MV5BYjhhZDE3NjgtMjkzNC00NzI3LWJhOTItMWQ5ZjljODA5NWNkXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_UX182_CR0,0,182,268_AL_.jpg",
-            "genres": ["action", "drama", "mystery"]
+            "releaseYear": 2019,
+            "mpaaRating": "TV-MA",
+            "timeLength": "1h",
+            "mediaType": "show",
+            "posterImage": "https://m.media-amazon.com/images/M/MV5BYjhhZDE3NjgtMjkzNC00NzI3LWJhOTItMWQ5ZjljODA5NWNkXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "coverImage": "https://pmcvariety.files.wordpress.com/2019/12/watchmen-cast.jpg",
+            "genres": ["Action", "Drama", "Mystery"],
+            "storyline": "Set in an alternate history where masked vigilantes are treated as outlaws and must embrace the nostalgia, Detective Angela Abar investigates the reemergence of a white supremacist terrorist group inspired by the long-deceased moral absolutist Rorschach."
         },
         {
             "name": "Legion",
-            "releaseYear": "2017",
-            "mediaType": "show",
             "rating": 8.3,
-            "coverImage": "https://m.media-amazon.com/images/M/MV5BNmYxMjM5MzMtNTczZC00MGM3LTk2MTQtZmNmMTg4ZDI4ZTkxXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_UX182_CR0,0,182,268_AL_.jpg",
-            "genres": ["action", "drama", "sci-fi"]
+            "releaseYear": 2017,
+            "mpaaRating": "TV-Ma",
+            "timeLength": "1h",
+            "mediaType": "show",
+            "posterImage": "https://m.media-amazon.com/images/M/MV5BNmYxMjM5MzMtNTczZC00MGM3LTk2MTQtZmNmMTg4ZDI4ZTkxXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "coverImage": "https://pmcvariety.files.wordpress.com/2018/06/legion_208_0251r.jpg",
+            "genres": ["Action", "Drama", "Sci-Fi"],
+            "storyline": "David Haller is a troubled young man diagnosed as schizophrenic, but after a strange encounter, he discovers special powers that will change his life forever."
         }
     ]
 }

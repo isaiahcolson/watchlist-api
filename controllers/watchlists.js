@@ -2,7 +2,8 @@ const db = require('../models');
 
 // show route
 const show = (req,res) => {
-    db.Watchlist.findById(req.params.id, (err,foundWatchlist) => {
+    db.Watchlist.findById(req.params.id).populate('titles')
+    .exec(function(err,foundWatchlist) {
         if (err) console.log('Error in watchlist#show:', err);
 
         if (!foundWatchlist) return res.json({

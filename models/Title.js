@@ -5,11 +5,15 @@ const Schema = mongoose.Schema;
 // title model, these are movies or shows
 const titleSchema = new Schema({
     name: String,
-    releaseYear: Number,
-    mediaType: String,
     rating: Number,
+    releaseYear: Number,
+    mpaaRating: String,
+    timeLength: String,
+    mediaType: String,
+    posterImage: String,
     coverImage: String,
-    genres: Array
+    genres: Array,
+    storyline: String
 });
 
 const Title = mongoose.model('Title', titleSchema);

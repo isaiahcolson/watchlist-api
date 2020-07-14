@@ -48,7 +48,7 @@ const login = async (req,res) => {
                 { _id: foundUser._id},
                 'rubberduckig11',
                 {
-                    expiresIn: '1h'
+                    expiresIn: '10d'
                 }
             );
             res.status(200).json({
