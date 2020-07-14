@@ -30,8 +30,22 @@ const update = (req,res) => {
     });
 }
 
+// update route
+const updateRemove = (req,res) => {
+    db.Watchlist.findByIdAndUpdate(req.params.id, {$pull: {titles: req.body.title}}, (err, foundWatchlist) => {
+        if (err) console.log('Error in watchlist#update:', err);
+
+        if (!foundWatchlist) return res.json({
+            message: "Watchlist with provided ID not found"
+        });
+
+        res.json({message: "Success"});
+    });
+}
+
 // exports
 module.exports = {
     show,
     update,
+    updateRemove,
 }
