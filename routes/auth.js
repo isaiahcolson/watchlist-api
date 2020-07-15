@@ -9,6 +9,7 @@ const authRequired = require('../middleware/authRequired');
 router.post('/register', controller.auth.register);
 router.post('/login', controller.auth.login);
 router.get('/profile', authRequired, controller.auth.profile);
+router.delete('/:id', controller.auth.destroy);
 
 // exports
 module.exports = router;

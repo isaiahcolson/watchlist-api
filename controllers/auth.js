@@ -71,10 +71,23 @@ const login = async (req,res) => {
     }
 }
 
+// account delete
+const destroy = (req,res) => {
+    db.User.findByIdAndDelete(req.params.id, (err, deletedUser) => {
+        if (err) console.log('Error in users#destroy:', err);
+
+        if (!deletedUser) return res.json({
+            message: 'No user with matching ID found.'
+        });
+
+        res.status(200).json({message: 'Success'});
+    });
+}
+
 // profile function for users account info
 const profile = async (req,res) => {
     try {
-        const foundUser = await db.User.findById(req.currentUser);
+        const foundUser = await db.User.findById(req.currentUser).populate("watchlists", "titles");
 
         res.json({headers: req.headers, user:foundUser});
     } catch (error) {
@@ -89,5 +102,6 @@ const profile = async (req,res) => {
 module.exports = {
     register,
     login,
+    destroy,
     profile,
 }
