@@ -1079,6 +1079,126 @@
             "coverImage": "https://mtv.mtvnimages.com/uri/mgid:ao:image:mtv.com:52483?quality=0.8&format=jpg",
             "genres": ["Fantasy", "Horror", "Drama"],
             "storyline": "Two brothers follow their father's footsteps as hunters, fighting evil supernatural beings of many kinds, including monsters, demons and gods that roam the earth."
+        },
+        {
+            "name": "Palm Springs",
+            "rating": 7.6,
+            "releaseYear": 2020,
+            "mpaaRating": "R",
+            "timeLength": "1h 30min",
+            "mediaType": "movie",
+            "posterImage": "https://m.media-amazon.com/images/M/MV5BYjk0MTgzMmQtZmY2My00NmE5LWExNGUtYjZkNTA3ZDkyMTJiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY268_CR0,0,182,268_AL_.jpg",
+            "coverImage": "https://www.gannett-cdn.com/presto/2020/05/27/USAT/a80560f8-96b0-49ae-a0fe-083844a9f8e8-PS_07312R_copy.jpg",
+            "genres": ["Comedy", "Romance", "Drama"],
+            "storyline": "While stuck at a wedding in Palm Springs, Nyles (Andy Samberg) meets Sarah (Cristin Milioti), the maid of honor and family black sheep. After he rescues her from a disastrous toast, Sarah becomes drawn to Nyles and his offbeat nihilism. But when their impromptu tryst is thwarted by a surreal interruption, Sarah must join Nyles in embracing the idea that nothing really matters, and they begin wreaking spirited havoc on the wedding celebration."
+        },
+        {
+            "name": "Avengers: Endgame",
+            "rating": 8.4,
+            "releaseYear": 2019,
+            "mpaaRating": "PG-13",
+            "timeLength": "3h 1min",
+            "mediaType": "movie",
+            "posterImage": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "coverImage": "https://www.cinesportstalk.com/site/wp-content/uploads/2019/07/avengers-endgame-thanos-1557753630.jpg",
+            "genres": ["Action", "Adventure", "Drama"],
+            "storyline": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
+        },
+        {
+            "name": "Ford v Ferrari",
+            "rating": 8.1,
+            "releaseYear": 2019,
+            "mpaaRating": "PG-13",
+            "timeLength": "2h 32min",
+            "mediaType": "movie",
+            "posterImage": "https://m.media-amazon.com/images/M/MV5BM2UwMDVmMDItM2I2Yi00NGZmLTk4ZTUtY2JjNTQ3OGQ5ZjM2XkEyXkFqcGdeQXVyMTA1OTYzOTUx._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "coverImage": "https://images.moviesanywhere.com/d6b3146442409b56465688bffbe271f1/dec5cf87-78c3-4001-976e-df92214df52a.jpg?r=3x1&w=2400",
+            "genres": ["Action", "History", "Drama"],
+            "storyline": "As Enzo Ferrari's fast Rosso-Corsa racing cars dominate the mid-1960s motorsport world, the American car designer, Carroll Shelby, is forced to retire after winning the demanding 1959 '24 Hours of Le Mans' endurance race. But, before long, an unexpected proposition by the Vice President of Henry Ford's motor company, Lee Iacocca, will offer an opportunity to beat the Italians at their own game. Now, under those pressing circumstances, the British sports car driver and racing engineer, Ken Miles, reluctantly agrees to lend a hand and improve the firm's image, as Ford's race team has less than ninety days to rewrite history. As a result, the non-conformist duo comes up with the mighty Ford GT40 Mk I high-performance racing car. Can Shelby and Miles break Ferrari's streak?"
+        },
+        {
+            "name": "Fight Club",
+            "rating": 8.8,
+            "releaseYear": 1999,
+            "mpaaRating": "R",
+            "timeLength": "2h 19min",
+            "mediaType": "movie",
+            "posterImage": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "coverImage": "https://nofilmschool.com/sites/default/files/styles/facebook/public/fightclubdvd.jpg?itok=u2Dc2GwV",
+            "genres": ["Drama", "Action", "Mystery"],
+            "storyline": "A nameless first person narrator (Edward Norton) attends support groups in attempt to subdue his emotional state and relieve his insomniac state. When he meets Marla (Helena Bonham Carter), another fake attendee of support groups, his life seems to become a little more bearable. However when he associates himself with Tyler (Brad Pitt) he is dragged into an underground fight club and soap making scheme. Together the two men spiral out of control and engage in competitive rivalry for love and power. When the narrator is exposed to the hidden agenda of Tyler's fight club, he must accept the awful truth that Tyler may not be who he says he is."
+        },
+        {
+            "name": "The Karate Kid",
+            "rating": 7.2,
+            "releaseYear": 1984,
+            "mpaaRating": "PG",
+            "timeLength": "2h 6min",
+            "mediaType": "movie",
+            "posterImage": "https://m.media-amazon.com/images/M/MV5BNTkzY2YzNmYtY2ViMS00MThiLWFlYTEtOWQ1OTBiOGEwMTdhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "coverImage": "https://media.vanityfair.com/photos/5d166f1d8d44360009846543/5:3/w_2000,h_1200,c_limit/the-karate-kid-35-lede.jpg",
+            "genres": ["Action", "Drama", "Comedy"],
+            "storyline": "Daniel and his mother move from New Jersey to California. She has a wonderful new job, but Daniel quickly discovers that a dark haired Italian boy with a Jersey accent doesn't fit into the blond surfer crowd. Daniel manages to talk his way out of some fights, but he is finally cornered by several who belong to the same karate school. As Daniel is passing out from the beating he sees Miyagi, the elderly gardener leaps into the fray and save him by outfighting half a dozen teenagers. Miyagi and Daniel soon find out the real motivator behind the boys' violent attitude in the form of their karate teacher. Miyagi promises to teach Daniel karate and arranges a fight at the all-valley tournament some months off. When his training begins, Daniel doesn't understand what he is being shown. Miyagi seems more interested in having Daniel paint fences and wax cars than teaching him Karate."
+        },
+        {
+            "name": "Mad Men",
+            "rating": 8.6,
+            "releaseYear": 2007,
+            "mpaaRating": "TV-14",
+            "timeLength": "47min",
+            "mediaType": "show",
+            "posterImage": "https://m.media-amazon.com/images/M/MV5BMjMwNzk5Nzg2OV5BMl5BanBnXkFtZTgwMjg1OTk1NDE@._V1_UY268_CR1,0,182,268_AL_.jpg",
+            "coverImage": "https://lionsgate.brightspotcdn.com/91/41/9333b5b445b69c77132a6cd19b98/mad-men-series-background-02.jpg",
+            "genres": ["Drama", "Romance", "History"],
+            "storyline": "The professional and personal lives of those who work in advertising on Madison Avenue - self-coined \"mad men\" - in the 1960s are presented. The stories focus on those at one of the avenue's smaller firms, Sterling Cooper, and its various incarnations over the decade. At the heart of these stories is Donald Draper, the creative genius of the company. That professional creative brilliance belies the fact of a troubled childhood, one that he would rather forget and not let anyone know about except for a select few, but one that shaped who he is as an adult and as an ad man in the need not only to sell products but sell himself to the outside world. His outward confidence also masks many insecurities as evidenced through his many vices, such as excessive smoking, drinking and womanizing - the latter despite being a family man - and how he deals with the aftermath of some of the negative aspects of his life."
+        },
+        {
+            "name": "Malcolm in the Middle",
+            "rating": 8.0,
+            "releaseYear": 2000,
+            "mpaaRating": "TV-PG",
+            "timeLength": "22min",
+            "mediaType": "show",
+            "posterImage": "https://m.media-amazon.com/images/M/MV5BNTc2MzM2N2YtZDdiOS00M2I2LWFjOGItMDM3OTA3YjUwNjAxXkEyXkFqcGdeQXVyNzA5NjUyNjM@._V1_UY268_CR0,0,182,268_AL_.jpg",
+            "coverImage": "https://www.media1.hw-static.com/media/2017/03/fox_malcolminthemiddle_032017_1800x1200-1800x1200.jpg",
+            "genres": ["Comedy", "Sitcom", "Drama"],
+            "storyline": "An offbeat, laugh track-lacking sitcom about a bizarrely dysfunctional family, the center of which is Malcolm, the middle of the two brothers who still live at home. His eldest (and favorite) sibling, Francis, boards at military school because his parents believe it will reform him and keep him out of trouble. Malcolm often has a hard time coping with his family life, but he has more troubles to contend with when he starts receiving special treatment at school after being diagnosed as an intellectually advanced genius."
+        },
+        {
+            "name": "Heroes",
+            "rating": 7.5,
+            "releaseYear": 2006,
+            "mpaaRating": "TV-14",
+            "timeLength": "45min",
+            "mediaType": "show",
+            "posterImage": "https://m.media-amazon.com/images/M/MV5BMjI3ODU0OTQ1MV5BMl5BanBnXkFtZTgwNzI0MTQ2MzE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "coverImage": "https://4.bp.blogspot.com/-QVL1Pb4IOyc/UwyPCqnBmbI/AAAAAAAAMSw/brAYiRTEo0M/s1600/Heroes-TV-Wallpaper-1.jpg",
+            "genres": ["Drama", "Fantasy", "Sci-Fi"],
+            "storyline": "People all over the U.S start to realize they have special abilities, like telekinesis, healing abilities, flying powers, time travel, invisibility, and the ability to absorb other's abilities. One man, known as Sylar, wants to gain all the power of these \"heroes\" so he can be the most powerful and evolved human of all, and stops at nothing to gruesomely kill these people. In order to protect themselves from him, these people must help one another before Sylar can destroy them all, while they each deal with problems of their own."
+        },
+        {
+            "name": "Psych",
+            "rating": 8.3,
+            "releaseYear": 2006,
+            "mpaaRating": "TV-PG",
+            "timeLength": "44min",
+            "mediaType": "show",
+            "posterImage": "https://m.media-amazon.com/images/M/MV5BYzRkOWRmNGUtYzM0Zi00ZGRkLThhMjktNmI4NDYwZDVmODBkXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY268_CR0,0,182,268_AL_.jpg",
+            "coverImage": "https://tvguide1.cbsistatic.com/i/2019/06/26/fbf8c33c-5b8f-43e0-8b40-d255c645b382/e35c5a9c747cb9b18678c152b6fd8434/190626-dule-hill-james-roday-psych.jpg",
+            "genres": ["Comedy", "Crime", "Mystery"],
+            "storyline": "Think you are psychic? Shawn Spencer (James Roday) makes his living pretending to be. Shawn and his best friend Burton \"Gus\" Guster (Dulé Hill) own a business called \"Psych\". They are able to stay in business only because of the cases they work with the Santa Barbara Police Department as psychics. Shawn and Gus go through many ups and downs trying to keep the ruse up. Can they pretend forever? Or is the world they built going to come crumbling down?"
+        },
+        {
+            "name": "The League",
+            "rating": 8.2,
+            "releaseYear": 2009,
+            "mpaaRating": "TV-MA",
+            "timeLength": "22min",
+            "mediaType": "show",
+            "posterImage": "https://m.media-amazon.com/images/M/MV5BMjAxMDg2NTc4OV5BMl5BanBnXkFtZTgwNTI2NTIzNjE@._V1_UY268_CR16,0,182,268_AL_.jpg",
+            "coverImage": "https://i.pinimg.com/originals/75/e3/67/75e3679c3225c7b7655666bd310962ec.jpg",
+            "genres": ["Comedy", "Sitcom", "Drama"],
+            "storyline": "An ensemble comedy that follows a group of old friends in a fantasy football league who care deeply about one another -- so deeply that they use every opportunity to make each other's lives miserable."
         }
     ]
 }
