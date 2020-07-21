@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3001;
 
 // middleware
 const options = {
-    origin: ["http://localhost:3000"]
+    origin: ["https://isaiahcolson-watchlist.herokuapp.com/"]
 }
 
 app.use(cors(options));
