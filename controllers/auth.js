@@ -46,7 +46,7 @@ const login = async (req,res) => {
         if (isMatch) {
             const signedJwt = await jwt.sign(
                 { _id: foundUser._id},
-                'rubberduckig11',
+                process.env.SECRET_KEY,
                 {
                     expiresIn: '10d'
                 }
