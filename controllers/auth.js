@@ -49,7 +49,7 @@ const login = async (req,res) => {
                 { _id: foundUser._id},
                 process.env.SECRET_KEY,
                 {
-                    expiresIn: '10d'
+                    expiresIn: '1h'
                 }
             );
             res.status(200).json({
