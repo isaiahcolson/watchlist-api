@@ -2,18 +2,19 @@
 const express = require('express');
 const cors = require('cors');
 const routes = require('./routes');
+require("dotenv").config();
 
 // config
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT;
 
 // middleware
 const options = {
-    origin: ["http://localhost:3000"]
+    origin: ["https://isaiahcolson-watchlist.herokuapp.com"]
 }
 
-app.use(cors(options));
 app.use(express.json());
+app.use(cors(options));
 
 // routes
 app.use('/titles', routes.titles);

@@ -1,6 +1,7 @@
 const db = require('../models');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
+require("dotenv").config();
 
 // register function for new users
 const register = async (req,res) => {
@@ -46,9 +47,9 @@ const login = async (req,res) => {
         if (isMatch) {
             const signedJwt = await jwt.sign(
                 { _id: foundUser._id},
-                'rubberduckig11',
+                process.env.SECRET_KEY,
                 {
-                    expiresIn: '10d'
+                    expiresIn: '1h'
                 }
             );
             res.status(200).json({
