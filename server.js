@@ -9,11 +9,11 @@ const PORT = process.env.PORT;
 
 // middleware
 const options = {
-    origin: ["https://isaiahcolson-watchlist.herokuapp.com/"]
+    origin: ["https://isaiahcolson-watchlist.herokuapp.com"]
 }
 
-app.use(cors(options));
 app.use(express.json());
+app.use(cors(options));
 
 // routes
 app.use('/titles', routes.titles);
