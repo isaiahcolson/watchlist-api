@@ -1,5 +1,6 @@
 // imports
 const mongoose = require('mongoose');
+require("dotenv").config();
 
 // standard mongo connection
 const connectionString = process.env.MONGODB_URI;
